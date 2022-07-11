@@ -36,7 +36,7 @@ public class ArrayTasksTest {
         notAllowedStrings = Files.readAllLines(
                         Path.of("src/main/java/com/epam/mjc/stage0/ArrayTasks.java")
                 ).stream()
-                .filter(line -> line.contains("import"))
+                .filter(line -> line.contains("import1"))
                 .collect(Collectors.toList());
     }
 
